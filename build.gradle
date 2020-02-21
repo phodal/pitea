@@ -15,10 +15,10 @@ version '0.0.1'
 apply plugin: 'maven-publish'
 apply plugin: 'kotlinx-serialization'
 
-configurations.all {
-    // Check for updates every build
-    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
-}
+//configurations.all {
+//    // Check for updates every build
+//    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+//}
 
 def chapiVersion = '0.1.1'
 def serialization_version = "0.14.0"
